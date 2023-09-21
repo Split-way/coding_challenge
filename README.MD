@@ -49,4 +49,4 @@ After you run the script, it fills the SQLite database with the data from CSVs a
 ## Author
 
 Volodymyr Sovyk 
-* [LinkdedIn](https://www.linkedin.com/in/volodymyr-sovyk/)
+* [LinkedIn](https://www.linkedin.com/in/volodymyr-sovyk/)
