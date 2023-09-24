@@ -52,6 +52,8 @@ class DemandsFormatter:
 
 
 class ForecastsFormatter:
+    # Columns are renamed because spaces cause errors in SQL query,
+    # program will only query DB on these columns for simplicity
     def _rename_analyzed_columns(self, forecasts_df: DataFrame) -> None:
         forecasts_df.rename(columns={"Datetime": "datetime"}, inplace=True)
         forecasts_df.rename(
